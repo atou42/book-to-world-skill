@@ -34,12 +34,12 @@ Turbo Append 不表示向已有线上世界追加数据。四档默认都生成�
 例如在 Codex 中，克隆到自己的工作目录后，为它建立一个独立技能链接：
 
 ```bash
-git clone git@github.com:atou42/book-to-world-skill.git
+git clone https://github.com/atou42/book-to-world-skill.git
 mkdir -p ~/.codex/skills
 ln -s "$PWD/book-to-world-skill" ~/.codex/skills/book-to-world
 ```
 
-如果同名技能已经存在，先确认其来源，不要覆盖。此私有仓库需要相应的 GitHub 访问权限。
+如果同名技能已经存在，先确认其来源，不要覆盖。仓库公开，可直接下载或克隆。
 
 运行脚本需要 Python 3.10+。输入整理使用标准库，输出检查需要 `jsonschema`：
 
