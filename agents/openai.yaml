@@ -1,0 +1,4 @@
+interface:
+  display_name: "Book to World · 通用拆书"
+  short_description: "把书籍和设定资料整理为 Neta 兼容世界，支持四档拆书与通用输入"
+  default_prompt: "Use $book-to-world to turn my source material into a Neta-compatible world.json in Full mode."

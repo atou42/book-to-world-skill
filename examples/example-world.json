@@ -1,0 +1,15 @@
+{
+  "worldConfig": {
+    "name": "Bellweather",
+    "overview": "In the coastal town of Bellweather, a warning bell and the Tide Council protect harbor families from storms. Bell keeper Mira learns to trust evidence with help from her brother Ivo.",
+    "language": "en",
+    "creationMode": "book-import",
+    "rules": ["The keeper must ring the warning bell when the outer marker disappears beneath the water."],
+    "sections": [{"key": "characters", "label": "Characters"}, {"key": "faction", "label": "Factions"}]
+  },
+  "atoms": [
+    {"type": "character", "name": "Mira", "description": "Bellweather's bell repairer and warning-bell keeper, who overcomes her fear of a false alarm when Ivo brings evidence of danger.", "content": [{"key": "Role and alias", "value": "The townspeople call her the Bell Keeper because she tends the warning bell above the harbor."}, {"key": "Choice and relationship", "value": "An earlier mistake makes her fear sounding a false alarm. Her brother Ivo shows her that the outer marker has vanished; she rings the bell, allowing the harbor families to reach the hill refuge before the storm. They then agree to check the marker together before every watch."}], "tags": ["bell keeper"]},
+    {"type": "character", "name": "Ivo", "description": "Mira's brother and keeper of the tide records, whose observation prompts the storm warning.", "content": [{"key": "Contribution", "value": "He shows Mira that the outer marker has disappeared beneath the water. After the evacuation, he agrees to check it with her before every watch."}], "tags": []},
+    {"type": "faction", "name": "Tide Council", "description": "The body that closes Bellweather's harbor during storms and opens the hill refuge after the warning bell.", "content": [{"key": "Storm response", "value": "When Mira rings the warning bell, the Council opens the hill refuge and the harbor families arrive before the storm."}], "tags": []}
+  ]
+}
